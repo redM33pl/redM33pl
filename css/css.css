@@ -1,3 +1,173 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}	
+
+ol, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	cursor: pointer;
+} 
+
+.visually-hidden {
+	position: absolute;
+  	clip: rect(0 0 0 0);
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+}
+
+h1, h2, h3, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+/****END RESET****/
+
+:root {
+	--orange_main: #e8663c;
+	--border_temp_green: 1px solid #18a701;
+	--border_temp_red: 1px solid #a70e0e;
+	--border_temp_blue: 1px solid #0d1e86;
+	--border_temp_white: 1px solid #fff;
+}
+
+.bg-green {
+	background-color: rgba(20, 176, 134, 0.5); 
+	outline-color: rgba(50, 76, 134); 
+}
+	
+.bg-blue {
+	background-color: rgba(20, 024, 134, 0.5); 
+	outline-color: rgba(50, 76, 134); 
+}
+
+div {
+	_outline: var(--border_temp_blue);
+	_outline: var(--border_temp_white);
+}
+
+.wrapper-main {
+	width: 1500px;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.container-center {
+	margin: auto 0;
+}
+
+
+.line-white {
+	background-color: #fff;
+}
+
+.line-purple {
+	background-color: #736588
+}
+
+.line-width {
+	width: 480px;
+	margin-top: 30px;
+}
+
+.title-lite {
+	font-size: 16px;
+  	font-family: "RobotoSlab";
+	text-transform: uppercase;
+}
+
+.text-main {
+  font-size: 15px;
+  color: rgb(255, 255, 255); 
+}
+
+
+.btn-main {
+	background-color: #ffd670;
+	border: none;
+	border-radius: 3px;
+	color: #ffffff;
+	font-family: "Roboto Slab";
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*=======Section-header=========*/
+
+.section-top {
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-title {
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.section-title--white {
+	color: #fff
+}
+
+.section-title--dark {
+	color: rgb(91, 96, 116);
+}
+
+.section-middle-line {
+	width: 88px;
+	height: 2px;
+	margin: 16px 0;
+	background-color: #dbdde5;
+}
+
+.section-middle-line--white {
+	background-color: #fff;
+}
+
+.section-middle-line--dark {
+	background-color: #736588
+}
+
+.section-subtitle {
+	margin: 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}  
+
+.section-subtitle--purple {
+	color: #d0c6db;
+}
+
+.section-subtitle--white {
+	color: #fff;
+}
+
+/*==========Blog==============*/
+
+.blog { 
+	padding: 100px 0;
+}
+
+
 /**Header**/
 
 .header {
